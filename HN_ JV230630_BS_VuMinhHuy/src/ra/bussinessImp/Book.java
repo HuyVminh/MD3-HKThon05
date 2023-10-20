@@ -41,43 +41,6 @@ public class Book implements IBook, Comparable<Book> {
     public String getBookName() {
         return bookName;
     }
-
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public int getNumberOfPages() {
-        return numberOfPages;
-    }
-
-    public void setNumberOfPages(int numberOfPages) {
-        this.numberOfPages = numberOfPages;
-    }
-
-    public float getImportPrice() {
-        return importPrice;
-    }
-
-    public void setImportPrice(float importPrice) {
-        this.importPrice = importPrice;
-    }
-
-    public float getExportPrice() {
-        return exportPrice;
-    }
-
-    public void setExportPrice(float exportPrice) {
-        this.exportPrice = exportPrice;
-    }
-
     public float getInterest() {
         return interest;
     }
